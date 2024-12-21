@@ -4,6 +4,7 @@ import Skills from "../Skills/Skills";
 import Bio from "../About/Bio";
 import MyCV from "../CV/MyCV";
 import { FaAnglesDown } from "react-icons/fa6";
+import Footer from "../Footer/Footer";
 
 const Landing = () => {
   return (
@@ -16,8 +17,8 @@ const Landing = () => {
 
           <div className='cols-span-1 row-start-2 md:col-start-2 sm:col-start-1 row-span-1 md:col-span-3 w-full'>
             <Bio />
-            <div className='flex items-center justify-center my-4 sm:mt-2 w-full sm:w-min'>
-              <MyCV />
+            <div className='flex items-center justify-center my-4 sm:mt-2 w-full sm:w-min gap-4'>
+              <Footer />
             </div>
           </div>
           <div className='cols-span-1 row-start-3 md:col-span-2 sm:col-start-2 row-span-1 md:col-start-4 md:row-start-2 mx-auto w-full'>

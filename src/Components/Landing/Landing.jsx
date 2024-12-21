@@ -25,7 +25,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className='relative top-28 animate-pulse text-zinc-200/80 text-7xl'>
+      <div className='relative top-0 sm:top-28 animate-pulse text-zinc-200/80 text-2xl mb-4 sm:mb-0 sm:text-7xl'>
         <a href="#projects">
           <FaAnglesDown />
         </a>

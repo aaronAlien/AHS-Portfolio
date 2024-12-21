@@ -11,9 +11,9 @@ const ContactModal = () => {
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className='mx-1 tracking-widest text-center uppercase font-anonymousPro font-semibold hover:text-zinc-200 transition duration-500 ease-in-out'
+        className='mx-1 tracking-widest text-center font-anonymousPro font-semibold hover:uppercase transition duration-500 ease-in-out'
       >
-        contact me
+        get in touch
       </button>
 
       {isOpen && (

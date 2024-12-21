@@ -3,7 +3,7 @@ import React from "react";
 const MyCV = () => {
   return (
     <>
-      <div className='flex items-center justify-center gap-4 w-min'>
+      <div className='flex items-center justify-center gap-4 sm:w-min'>
         <a
           href='http://'
           target='_blank'
@@ -56,26 +56,3 @@ const MyCV = () => {
 };
 
 export default MyCV;
-
-/*
-// INBOX ICON
-
-
-          <svg
-            className='w-6 h-6 text-gray-800 dark:text-zinc-950'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            width='24'
-            height='24'
-            fill='none'
-            viewBox='0 0 24 24'
-          >
-            <path
-              stroke='currentColor'
-              strokeLinecap='round'
-              strokeWidth='2'
-              d='m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z'
-            />
-          </svg>
-
- */

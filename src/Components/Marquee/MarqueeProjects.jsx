@@ -15,6 +15,13 @@ const MarqueeProjects = () => {
     </span>
 ))}
   </div>
+  <div className="sm:flex animate-marquee whitespace-nowrap font-anonymousPro uppercase font-bold">
+{textItems.map((item, index) => (
+    <span key={index} className='text-5xl sm:text-8xl mx-4 text-zinc-200'>
+        {item}
+    </span>
+))}
+  </div>
 </div>
 
     </>

@@ -14,9 +14,14 @@ const Skills = () => {
       message: "CSS3",
     },
     {
+      icon: <StackIcon name="tailwindcss" className='icon grayscale w-12 sm:w-14 p-2' />,
+    message: "Tailwindcss",
+    },  
+    {
       icon: <StackIcon name='js' className='icon grayscale w-12 sm:w-14 p-2' />,
       message: "JavaScript",
     },
+
     {
       icon: <StackIcon name='reactjs' className='icon grayscale w-12 sm:w-14 p-2' />,
       message: "React.js",
@@ -25,6 +30,10 @@ const Skills = () => {
       icon: <StackIcon name='nodejs' className='icon grayscale w-12 sm:w-14 p-2' />,
       message: "Node.js",
     },
+    {
+      icon: <StackIcon name="vitejs" className='icon grayscale w-12 sm:w-14 p-2' />,
+      message: "Vite"
+    },    
     {
       icon: <StackIcon name='python' className='icon grayscale w-12 sm:w-14 p-2' />,
       message: "Python",
@@ -41,6 +50,11 @@ const Skills = () => {
       icon: <StackIcon name='git' className='icon grayscale w-12 sm:w-14 p-2' />,
       message: "Git",
     },
+    {
+      icon: <StackIcon name='github' className='icon rounded-full w-12 sm:w-14 p-2' />,
+      message: "GitHub",
+    },
+
   ];
 
   return (

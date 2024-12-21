@@ -8,7 +8,9 @@ const Main = () => {
   return (
     <>
       <div className='flex flex-col items-center justify-center'>
-        <div className='container flex flex-col items-center justify-center min-h-screen'>
+        <div 
+        id="landing"
+        className='container flex flex-col items-center justify-center min-h-screen'>
           <Landing />
         </div>
       </div>
@@ -22,7 +24,7 @@ const Main = () => {
       </div>
       <div className='flex flex-col items-center justify-center'>
         <div
-          id='about'
+          
           className='container flex flex-col items-center justify-center min-h-screen'
         >
           <AboutMe />

@@ -4,6 +4,8 @@ import coffee from "../../assets/CardImages/coffee.png";
 import genshin from "../../assets/CardImages/genshin.png";
 import blurt from "../../assets/CardImages/blurt.png";
 import MarqueeProjects from "../../Components/Marquee/MarqueeProjects";
+import { FaAnglesDown } from "react-icons/fa6";
+
 
 const MyProjects = () => {
   const projectsData = [
@@ -57,6 +59,11 @@ const MyProjects = () => {
             more
           </button>
         </div>*/}
+      </div>
+      <div className='relative top-28 animate-pulse text-zinc-200/80 text-7xl'>
+        <a href="#about">
+          <FaAnglesDown />
+        </a>
       </div>
     </>
   );

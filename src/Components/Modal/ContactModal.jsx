@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 import windowClick from "../../Hooks/WindowClick";
 
 const ContactModal = () => {
-
   const [isOpen, setIsOpen] = useState(false);
   const modalRef = useRef();
 
@@ -18,30 +17,40 @@ const ContactModal = () => {
       </button>
 
       {isOpen && (
-        <div 
-        ref={modalRef}
-        className='fixed inset-0 flex items-center justify-center z-50 bg-zinc-950/90'>
-          <div className='container max-w-screen-sm mx-auto pt-5 px-5 w-4/5 sm:px-10 sm:pt-10 md:px-16 flex flex-col justify-center items-center rounded-xl text-zinc-950 shadow-md bg-gradient-to-tr from-violet-400 via-zinc-500 to-zinc-600'>
+        <div
+          ref={modalRef}
+          className='fixed inset-0 flex items-center justify-center z-50 bg-zinc-950/95'
+        >
+          <div className='container max-w-screen-sm mx-auto pt-5 px-5 w-4/5 sm:px-10 sm:pt-10 md:px-16 flex flex-col justify-center items-center rounded-xl text-zinc-950 shadow-custom border border-violet-300/30 bg-gradient-to-tr from-zinc-300 via-zinc-500 to-zinc-600'>
+            <span className='absolute items-center top-1/3 text-2xl font-bold text-violet-300'>
+              Aaron H Shakespeare | London, UK | Junior Software Developer
+            </span>
 
-            <span className='absolute items-center top-20 text-2xl'>
-                Aaron H Shakespeare
-                |
-                London, UK
-                |
-                Junior Software Developer
-                </span>
-            
-            <div className='bg-zinc-950 rounded-lg shadow-custom'>
-              <h3 className='text-2xl font-semibold font-anonymousPro'>
+            <div className=''>
+              <h3 className='text-2xl py-1 px-4 font-semibold font-anonymousPro text-zinc-950'>
                 Contact Me
               </h3>
             </div>
 
             <div className='m-4'>
               <ul>
-                <li>Email me: thatshakespeare2@gmail.com</li>
-                <li>Message me: </li>
-                <li></li>
+                <a href=''>
+                  <li>
+                    Email me at{" "}
+                    <a
+                      href='mailto:thatshakespeare2@gmail.com'
+                      className='font-semibold hover:uppercase transition-all 500ms ease-in-out'
+                    >
+                      thatshakespeare2@gmail.com
+                    </a>
+                  </li>
+                </a>
+                <li>
+                  Message me on{" "}
+                  <a href='' className='font-semibold hover:animate-pulse hover:uppercase'>
+                    LinkedIn
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

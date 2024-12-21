@@ -35,7 +35,7 @@ const MyProjects = () => {
 
   return (
     <>
-      <div className='relative left-0 mb-14'>
+      <div className='relative left-0 mb-6 sm:mb-14'>
         <MarqueeProjects />
       </div>
       <div className='max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-gradient-to-tr from-zinc-400 via-zinc-600 to-zinc-700 rounded-xl shadow-custom border border-violet-950/50'>

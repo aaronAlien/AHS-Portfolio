@@ -12,7 +12,7 @@ export default {
         robotoMono: ['Roboto Mono', 'sans-serif', 'mono']
       },
       animation: {
-        marquee: 'marquee 500s linear infinite',
+        marquee: 'marquee 1000s linear infinite',
       },
       keyframes: {
         marquee: {

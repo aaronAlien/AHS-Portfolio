@@ -11,6 +11,9 @@ export default {
         kanit: ['Kanit', 'serif'],
         robotoMono: ['Roboto Mono', 'sans-serif', 'mono']
       },
+      fontSize: {
+        'xxs': ['0.625rem', '0.875rem'],
+    },
       animation: {
         marquee: 'marquee 1000s linear infinite',
       },

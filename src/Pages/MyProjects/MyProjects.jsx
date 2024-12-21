@@ -11,7 +11,7 @@ const MyProjects = () => {
       title: "Borcelle Coffee",
       image: coffee,
       description:
-        "Visual accessibility features, allowing users to modify the appearance to suit their needs.",
+        "1. Develop a simple website. \n2.Practice in Web Design in relation to accessibility",
       link: "https://aaronalien.github.io/coffeeShop/index.html",
       tags: ["html", "css", "javascript"],
     },

@@ -1,7 +1,6 @@
 import React from "react";
 import StackIcon from "tech-stack-icons";
-import Tooltip from "../Tooltip/Tooltip";
-import SkillInstance from "./SkillInstance";
+import IconInstance from "../Icons/IconInstance";
 
 const Skills = () => {
   const skillData = [
@@ -61,7 +60,7 @@ const Skills = () => {
     <>
       <div className='flex flex-wrap sm:w-2/3 items-center justify-center sm:gap-2 sm:px-6 py-4 rounded-xl bg-zinc-950 shadow-md'>
         {skillData.map((skill, index) => (
-          <SkillInstance
+          <IconInstance
             key={index}
             icon={skill.icon}
             message={skill.message}

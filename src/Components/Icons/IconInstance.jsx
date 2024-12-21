@@ -1,8 +1,7 @@
 import React from "react";
-import StackIcon from "tech-stack-icons";
 import Tooltip from "../Tooltip/Tooltip";
 
-const SkillInstance = ({ icon, message }) => {
+const IconInstance = ({ icon, message }) => {
   return (
     <>
       <div className=''>
@@ -14,4 +13,4 @@ const SkillInstance = ({ icon, message }) => {
   );
 };
 
-export default SkillInstance;
+export default IconInstance;

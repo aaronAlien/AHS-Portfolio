@@ -2,7 +2,7 @@ import React from "react";
 import MyProjects from "../../Pages/MyProjects/MyProjects";
 import Landing from "../../Components/Landing/Landing";
 import AboutMe from "../../Pages/About/AboutMe";
-import Footer from "../../Components/Footer/Footer";
+import Credits from "../../Components/Footer/FootWithCredits";
 
 const Main = () => {
   return (
@@ -30,7 +30,7 @@ const Main = () => {
           <AboutMe />
         </div>
         <div className='relative gap-8 bottom-6'>
-          <Footer />
+          <Credits />
         </div>
       </div>
     </>

@@ -5,7 +5,8 @@ import { FiFileText, FiLinkedin, FiGithub } from "react-icons/fi";
 const Footer = () => {
   return (
     <>
-      <div className='flex justify-start gap-6'>
+      <div className='flex flex-col justify-start gap-6'>
+          
         <div className='flex items-center justify-start gap-6 w-min mb-2'>
           <a
             href='http://'

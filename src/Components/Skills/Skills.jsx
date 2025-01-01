@@ -58,7 +58,7 @@ const Skills = () => {
 
   return (
     <>
-      <div className='flex flex-wrap sm:w-2/3 items-center justify-center sm:gap-2 sm:px-6 py-4 rounded-xl bg-zinc-950 shadow-md'>
+      <div className='flex flex-wrap sm:w-2/3 md:w-4/5 items-center justify-center sm:gap-2 sm:px-6 py-4 rounded-xl bg-zinc-950 shadow-md'>
         {skillData.map((skill, index) => (
           <IconInstance
             key={index}

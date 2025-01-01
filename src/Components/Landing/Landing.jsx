@@ -11,9 +11,9 @@ const Landing = () => {
     <>
       <div className='max-w-screen-xl flex flex-col m-6 sm:mx-5 px-4 pt-8 bg-gradient-to-tr from-zinc-600 via-zinc-800 to-zinc-900 rounded-xl shadow-custom border border-violet-300/30'>
         
-        <div className='grid grid-cols-1 md:grid-cols-5 sm:grid-cols-2 sm:grid-rows-2 gap-2 items-start pb-3 sm:pb-8'>
+        <div className='grid grid-cols-1 md:grid-cols-5 sm:grid-cols-2 grid-rows-2-[150px] gap-2 pb-3 sm:pb-8 items-center md:items-start'>
           
-          <div className='md:col-span-5 sm:col-span-2 col-span-1 mx-auto row-span-1'>
+          <div className='md:col-start-2 md:col-span-3 sm:col-span-2 col-span-1 mx-auto row-span-1'>
             <Header />
           </div>
 

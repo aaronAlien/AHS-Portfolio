@@ -29,7 +29,7 @@ const Main = () => {
         >
           <AboutMe />
         </div>
-        <div className='relative gap-8 bottom-0'>
+        <div className='relative gap-8 bottom-6'>
           <Footer />
         </div>
       </div>

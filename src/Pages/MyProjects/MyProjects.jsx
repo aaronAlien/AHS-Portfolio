@@ -13,7 +13,7 @@ const MyProjects = () => {
       title: "Borcelle Coffee",
       image: coffee,
       description:
-        "1. Develop a simple website. \n2.Practice in Web Design in relation to accessibility",
+        "1. Develop a simple website. \n2. Practice in Web Design in relation to accessibility",
       link: "https://aaronalien.github.io/coffeeShop/index.html",
       tags: ["html", "css", "javascript"],
     },
@@ -53,14 +53,13 @@ const MyProjects = () => {
             />
           ))}
         </div>
-
         {/*<div className='flex items-center justify-center m-auto text-center'>
           <button className='px-5 py-1 rounded-md mx-auto text-xl tracking-widest uppercase space-x-2 font-anonymousPro font-semibold bg-zinc-950 text-slate-100 border border-transparent hover:opacity-80 transition duration-500 ease-in-out'>
             more
           </button>
         </div>*/}
       </div>
-      <div className='relative top-0 sm:top-28 animate-pulse text-zinc-200/80 text-2xl mb-4 sm:mb-0 sm:text-7xl'>
+      <div className='flex items-center justify-center mt-0 mb-4 sm:mt-10 animate-pulse hover:text-sky-500/50 text-zinc-200/80 text-2xl sm:text-7xl'>
         <a href="#about">
           <FaAnglesDown />
         </a>

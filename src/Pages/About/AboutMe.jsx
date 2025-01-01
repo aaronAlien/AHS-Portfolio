@@ -17,10 +17,10 @@ const AboutMe = () => {
       >
         <MoreAboutMe />
       </div>
-      <div className='relative top-0 sm:top-28 w-min text-center animate-pulse text-zinc-200/80 text-4xl'>
+      <div className='flex items-center justify-center sm:mt-10 w-min text-center animate-pulse hover:animate-none text-zinc-200/80 text-4xl'>
         <a href='#landing'>
           <FaAnglesUp />
-          <p className='text-xs'>top</p>{" "}
+          <p className='text-xs'>top</p>
         </a>
       </div>
     </>
@@ -29,4 +29,6 @@ const AboutMe = () => {
 
 export default AboutMe;
 /*
+      <div className='flex items-center justify-center mt-10 animate-pulse text-zinc-200/80 text-2xl sm:text-7xl'>
+
  */

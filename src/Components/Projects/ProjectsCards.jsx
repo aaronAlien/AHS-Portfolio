@@ -1,7 +1,6 @@
 import React from "react";
-import Tooltip from "../Tooltip/Tooltip";
 import { FaCode } from "react-icons/fa6";
-import IconInstance from "../Icons/IconInstance";
+import CardIcon from "./CardIcon";
 
 const ProjectsCard = ({
   title,
@@ -71,7 +70,7 @@ const ProjectsCard = ({
               ))}
             </ul>
             {iconData.map((icon, index) => (
-              <IconInstance
+              <CardIcon
               key={index}
               icon={icon.icon}
               message={icon.message}

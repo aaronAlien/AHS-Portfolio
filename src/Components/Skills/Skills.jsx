@@ -1,6 +1,6 @@
 import React from "react";
 import StackIcon from "tech-stack-icons";
-import IconInstance from "../Icons/IconInstance";
+import IconInstance from "./SkillIcon";
 
 const Skills = () => {
   const skillData = [

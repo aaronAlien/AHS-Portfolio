@@ -36,7 +36,7 @@ const ContactModal = () => {
               <ul>
                 <a href=''>
                   <li>
-                    Email me at{" "}
+                    Email me at
                     <a
                       href='mailto:thatshakespeare2@gmail.com'
                       className='font-semibold hover:uppercase transition-all 500ms ease-in-out'
@@ -46,8 +46,8 @@ const ContactModal = () => {
                   </li>
                 </a>
                 <li>
-                  Message me on{" "}
-                  <a href='' className='font-semibold hover:animate-pulse hover:uppercase'>
+                  Message me on
+                  <a href='https://www.linkedin.com/in/aaron-shakespeare/' target="_blank" className='font-semibold hover:animate-pulse hover:uppercase'>
                     LinkedIn
                   </a>
                 </li>

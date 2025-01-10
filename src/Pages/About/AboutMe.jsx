@@ -1,8 +1,6 @@
 import React from "react";
 import MoreAboutMe from "../../Components/About/MoreAboutMe";
 import MarqueeAboutMe from "../../Components/Marquee/MarqueeAboutMe";
-import portrait from "../../assets/AHShakespearePFP.png";
-import ContactModal from "../../Components/Modal/ContactModal";
 import { FaAnglesUp } from "react-icons/fa6";
 
 const AboutMe = () => {
@@ -17,7 +15,7 @@ const AboutMe = () => {
       >
         <MoreAboutMe />
       </div>
-      <div className='flex items-center justify-center sm:mt-10 w-min text-center animate-pulse hover:animate-none text-zinc-200/80 text-4xl'>
+      <div className='flex items-center justify-center mb-10 sm:mb-0 sm:mt-10 w-min text-center animate-pulse hover:animate-none text-zinc-200/80 text-4xl'>
         <a href='#landing'>
           <FaAnglesUp />
           <p className='text-xs'>top</p>
@@ -28,7 +26,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-/*
-      <div className='flex items-center justify-center mt-10 animate-pulse text-zinc-200/80 text-2xl sm:text-7xl'>
 
- */

@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import ProjectsCard from "../../Components/Projects/ProjectsCards";
-import coffee from "../../assets/CardImages/coffee.png";
+import cloud from '../../assets/CardImages/wordcloud_genres_2.png';
 import genshin from "../../assets/CardImages/genshin.png";
 import blurt from "../../assets/CardImages/blurt.png";
 import MarqueeProjects from "../../Components/Marquee/MarqueeProjects";
@@ -10,12 +10,12 @@ import { FaAnglesDown } from "react-icons/fa6";
 const MyProjects = () => {
   const projectsData = [
     {
-      title: "Borcelle Coffee",
-      image: coffee,
+      title: "Spotify Exploration",
+      image: cloud,
       description:
-        "1. Develop a simple website. \n2. Practice in Web Design in relation to accessibility",
-      link: "https://aaronalien.github.io/coffeeShop/index.html",
-      tags: ["html", "css", "javascript"],
+        "Explore, analyse and visualise my data.\nUsing the Spotify Web API and my mobile app usage data from Android.",
+      link: "https://github.com/aaronAlien/Exploring-Spotify",
+      tags: ["python", "api", "jupyter"],
     },
     {
       title: "Genshin Daily",

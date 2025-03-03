@@ -4,3 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background: url('src/assets/animated_background.svg');
+}

@@ -53,11 +53,7 @@ const MyProjects = () => {
             />
           ))}
         </div>
-        {/*<div className='flex items-center justify-center m-auto text-center'>
-          <button className='px-5 py-1 rounded-md mx-auto text-xl tracking-widest uppercase space-x-2 font-anonymousPro font-semibold bg-zinc-950 text-slate-100 border border-transparent hover:opacity-80 transition duration-500 ease-in-out'>
-            more
-          </button>
-        </div>*/}
+
       </div>
       <div className='flex items-center justify-center mt-0 mb-4 sm:mt-10 animate-pulse hover:text-sky-500/50 text-zinc-200/80 text-2xl sm:text-7xl'>
         <a href="#about">

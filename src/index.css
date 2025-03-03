@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 html {
-    background: url('src/assets/animated_background.svg');
+    background: url('./assets/animated_background.svg');
 }

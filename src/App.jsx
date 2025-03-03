@@ -1,3 +1,4 @@
+import './index.css';
 import MyProjects from "./Pages/MyProjects/MyProjects";
 import AboutMe from "./Pages/About/AboutMe";
 import Main from "./Pages/Main/Main";

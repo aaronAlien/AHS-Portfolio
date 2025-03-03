@@ -18,7 +18,7 @@ const Header = () => {
         <div className='flex flex-col gap-2 w-full text-center sm:w-auto sm:text-left text-zinc-200'>
           <TooltipHeader
           message='they/them'>
-          <h1 className='sm:text-7xl md:text-5xl text-3xl font-bold tracking-wider hover:text-sky-500 transition all duration-500 ease-in-out'>
+          <h1 className='sm:text-7xl md:text-5xl text-3xl font-bold tracking-wider hover:text-sky-500 transition-all duration-500 ease-in-out'>
             Aaron H Shakespeare
           </h1>
           </TooltipHeader>

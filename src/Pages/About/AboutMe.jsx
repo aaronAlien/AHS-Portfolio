@@ -15,7 +15,7 @@ const AboutMe = () => {
       >
         <MoreAboutMe />
       </div>
-      <div className='flex items-center justify-center mb-10 sm:mb-0 sm:mt-10 w-2/3 mx-auto text-center animate-pulse hover:animate-none text-zinc-200/80 text-4xl'>
+      <div className='flex items-center justify-center mb-10 sm:mb-0 sm:mt-10 md:mb-5 w-2/3 mx-auto text-center animate-pulse hover:animate-none text-zinc-200/80 text-4xl'>
         <a href='#landing' className='text-4xl'>
           <FaAnglesUp />
         </a>

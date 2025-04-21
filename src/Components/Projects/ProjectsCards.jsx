@@ -7,6 +7,7 @@ const ProjectsCard = ({
   image,
   description,
   link,
+  link2,
   tags,
   icon,
   message,
@@ -15,7 +16,7 @@ const ProjectsCard = ({
     {
       icon: (
         <a
-          href={link}
+          href={link2}
           target='_blank'
           className='rounded-full border border-transparent bg-transparent hover:opacity-40 transition duration-300 ease-in-out'
         >

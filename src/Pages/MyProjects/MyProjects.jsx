@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import ProjectsCard from "../../Components/Projects/ProjectsCards";
 import cloud from '../../assets/CardImages/wordcloud_genres_2.png';
 import genshin from "../../assets/CardImages/genshin.png";
-import blurt from "../../assets/CardImages/blurt.png";
+import bus from "../../assets/CardImages/bus.jpg";
 import MarqueeProjects from "../../Components/Marquee/MarqueeProjects";
 import { FaAnglesDown } from "react-icons/fa6";
 
@@ -13,25 +13,28 @@ const MyProjects = () => {
       title: "Spotify Exploration",
       image: cloud,
       description:
-        "Explore, analyse and visualise my data.\nUsing the Spotify Web API and my mobile app usage data from Android.",
+        "Explore, analyse and visualise my data.\nUsing the Spotify Web api and my mobile app usage data from Android.",
       link: "https://github.com/aaronAlien/Exploring-Spotify",
+      link2: "https://github.com/aaronAlien/Exploring-Spotify",
       tags: ["python", "api", "jupyter"],
+    },
+    {
+      title: "Live Bus Arrivals",
+      image: bus,
+      description:
+        "Get live bus arrivals from the TFL api using 5-digit bus stop code. \n\n",
+      link: "https://live-bus-tfl.vercel.app/",
+      link2: "https://github.com/aaronAlien/Live-Bus-TFL",
+      tags: ["javascript", "reactjs", "api", "tailwindcss"],
     },
     {
       title: "Genshin Daily",
       image: genshin,
       description:
-        "Website for players to keep up to date with the popular game Genshin Impact. Using genshin.dev API.",
+        "Website for players to keep up to date with the popular game Genshin Impact. Using genshin.dev api.",
       link: "https://aaronalien.github.io/Daily-Genshin-Impact/",
+      link2: "https://github.com/aaronAlien/Daily-Genshin-Impact",
       tags: ["html", "css", "javascript", "api"],
-    },
-    {
-      title: "Blurt it Forget It",
-      image: blurt,
-      description:
-        "A lightweight React application for creating and auto-expiring thoughts, practicing state and effect.",
-      link: "https://aaronalien.github.io/Blurt-It-Forget-It/",
-      tags: ["html", "css", "javascript", "reactjs"],
     },
   ];
 
@@ -49,6 +52,7 @@ const MyProjects = () => {
               image={card.image}
               description={card.description}
               link={card.link}
+              link2={card.link2}
               tags={card.tags}
             />
           ))}

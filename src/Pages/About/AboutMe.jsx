@@ -11,7 +11,7 @@ const AboutMe = () => {
       </div>
       <div
         id='about'
-        className='max-w-screen-xl flex flex-col m-6 sm:mx-5 px-4 py-8 bg-gradient-to-tr from-zinc-300 via-zinc-500 to-zinc-600 rounded-xl shadow-custom border border-violet-950/50'
+        className='max-w-screen-xl flex flex-col m-6 sm:mx-5 px-4 py-8'
       >
         <MoreAboutMe />
       </div>

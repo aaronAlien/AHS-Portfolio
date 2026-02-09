@@ -38,13 +38,13 @@ const Credits = () => {
         </div>
 
       </div>
-      <div className='flex items-center justify-center mt-3 sm:mt-6 w-full mx-auto text-sm font-kanit font-light'>
+      <div className='flex items-center justify-center mt-3 sm:mt-6 w-full mx-auto text-sm font-kanit font-light text-zinc-800 '>
           <p>
             images:
             <a
               href='https://adamtitchener.com/'
               target='blank'
-              className='hover:opacity-50 hover:text-sky-500 transition-all duration-500 ease-in-out'
+              className='hover:opacity-50 transition-all duration-500 ease-in-out'
             >
               Adam Titchener
             </a>

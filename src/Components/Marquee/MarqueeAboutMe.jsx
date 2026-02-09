@@ -1,7 +1,7 @@
 import React from "react";
 
 const MarqueeAboutMe = () => {
-  const textItems = Array(195).fill("• About Me");
+  const textItems = Array(195).fill("• About");
 
   return (
     <>

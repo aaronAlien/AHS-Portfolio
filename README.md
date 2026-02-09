@@ -1,3 +1,3 @@
-# [Aaron H Shakespeare 2025 Portfolio](https://aaronhshakespeare.vercel.app/)
+# [Aaron H Shakespeare Portfolio](https://aaronhshakespeare.vercel.app/)
 
-### Vite | React | Tailwind 👾
+_Vite | React | Tailwind 👾_

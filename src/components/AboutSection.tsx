@@ -15,7 +15,7 @@ const AboutSection = () => (
       <p className="text-sm leading-relaxed text-secondary-foreground">
         After working internationally in the fashion industry, I shifted my focus to software development. Now, I build projects across web and data, usually starting from personal interests and turning them into technical challenges.
         <br />
-        I'm intersted in roles where I can continue building, tesing and improving systems in a practical environment.
+        I'm intersted in roles where I can continue building, testing and improving systems in a practical environment.
       </p>
       <p className="mt-6 text-center text-sm font-bold text-foreground">
         thatshakespeare2@gmail.com

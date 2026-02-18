@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HSL! */
+
+@layer base {
+  :root {
+    --background: 0 0% 7%;
+    --background-image: url('/assets/animated_background.svg');
+    --foreground: 0 0% 93%;
+
+    --card: 0 0% 14%;
+    --card-foreground: 0 0% 93%;
+
+    --popover: 0 0% 14%;
+    --popover-foreground: 0 0% 93%;
+
+    --primary: 0 0% 93%;
+    --primary-foreground: 0 0% 7%;
+
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 80%;
+
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 0 0% 22%;
+    --accent-foreground: 0 0% 93%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 60%;
+
+    --radius: 0.75rem;
+
+    --bento-cell: 0 0% 10%;
+    --bento-cell-hover: 0 0% 13%;
+    --bento-glow: 0 0% 100% / 0.06;
+
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 80%;
+    --sidebar-primary: 0 0% 93%;
+    --sidebar-primary-foreground: 0 0% 7%;
+    --sidebar-accent: 0 0% 15%;
+    --sidebar-accent-foreground: 0 0% 93%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 0 0% 60%;
+
+    /*shadows */
+    /* violets */
+    --violet-border: 254 53% 66%;
+    --violet-border-strong: 270 45% 50%;
+    --violet-border-deep: 280 55% 32%;
+
+    /* opaciity */
+    --violet-border-alpha: 0.35;
+    --violet-glow-soft: 0.12;
+    --violet-glow-micro: 0.06;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-foreground;
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+
+/* slightly faster below 1024px */
+@media (max-width: 1023px) {
+  .animate-marquee {
+    animation: marquee 6s linear infinite;
+  }
+}

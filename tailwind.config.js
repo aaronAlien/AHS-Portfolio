@@ -6,31 +6,84 @@ export default {
   ],
   theme: {
     extend: {
+      /* =======================
+         COLORS (CSS VARIABLES)
+         ======================= */
+      colors: {
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+
+        card: "hsl(var(--card))",
+        "card-foreground": "hsl(var(--card-foreground))",
+
+        popover: "hsl(var(--popover))",
+        "popover-foreground": "hsl(var(--popover-foreground))",
+
+        primary: "hsl(var(--primary))",
+        "primary-foreground": "hsl(var(--primary-foreground))",
+
+        secondary: "hsl(var(--secondary))",
+        "secondary-foreground": "hsl(var(--secondary-foreground))",
+
+        muted: "hsl(var(--muted))",
+        "muted-foreground": "hsl(var(--muted-foreground))",
+
+        accent: "hsl(var(--accent))",
+        "accent-foreground": "hsl(var(--accent-foreground))",
+
+        destructive: "hsl(var(--destructive))",
+        "destructive-foreground": "hsl(var(--destructive-foreground))",
+      },
+
+      /* =======================
+         RADIUS
+         ======================= */
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+
+      /* =======================
+         FONTS
+         ======================= */
       fontFamily: {
-        anonymousPro: ['Anonymous Pro', 'monospace'],
-        kanit: ['Kanit', 'serif'],
-        robotoMono: ['Roboto Mono', 'sans-serif', 'mono']
+        anonymousPro: ["Anonymous Pro", "monospace"],
+        kanit: ["Kanit", "serif"],
+        robotoMono: ["Roboto Mono", "monospace"],
       },
+
       fontSize: {
-        'xxs': ['0.625rem', '0.875rem'],
-    },
-      animation: {
-        marquee: 'marquee 1000s linear infinite',
-        'bounce-slow': 'bounce 1s infinite',
+        xxs: ["0.625rem", "0.875rem"],
       },
+
+      /* =======================
+         ANIMATIONS
+         ======================= */
+      animation: {
+        marquee: "marquee 1000s linear infinite",
+        "bounce-slow": "bounce 1s infinite",
+      },
+
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
         },
       },
+
+      /* =======================
+         SHADOWS
+         ======================= */
       boxShadow: {
-        //violet-300 , violet-950
-        'custom': '0 2px 6px -1px rgba(196, 181, 253, 0.5), 0 2px 2px -1px rgba(46, 16, 101, 0.06);',
+        custom:
+          "0 2px 6px -1px rgba(196, 181, 253, 0.5), 0 2px 2px -1px rgba(46, 16, 101, 0.06)",
       },
-      scrollBehavior: ['smooth'],
     },
   },
   plugins: [],
-}
-
+};

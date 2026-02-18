@@ -9,7 +9,7 @@ const projects = [
     tags: ["node", "typescript", "docker", "sql", "react", "vite", "tailwindcss"],
     githubUrl: "https://github.com/aaronAlien/delete_db",
     imageUrl: "/assets/CardImages/sucess_logout.jpg",
-    liveUrl:"#",
+    liveUrl:"https://github.com/aaronAlien/delete_db",
   },
   {
     title: "Character Calc - Genshin Impact",

@@ -37,7 +37,7 @@ const BentoHero = () => {
               <p className='text-sm text-muted-foreground'>
                 Full-Stack Developer
               </p>
-              <p className='text-xs text-muted-foreground'>📍 London, UK</p>
+              <p className='text-l text-muted-foreground'>📍 London, UK</p>
             </div>
           </BentoCell>
 
@@ -58,7 +58,7 @@ const BentoHero = () => {
 
           {/* stack - rright */}
           <BentoCell className='md:col-span-2'>
-            <p className='mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground'>
+            <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Stack
             </p>
             <div className='flex flex-wrap gap-3 text-2xl text-secondary-foreground'>
@@ -77,11 +77,11 @@ const BentoHero = () => {
           {/* working on - bottom left */}
           <BentoCell className='group md:col-span-1'>
             <a href='https://github.com/aaronAlien/reflection-sessions' target="_blank" className='flex h-full flex-col justify-between gap-3'>
-              <p className='text-xs font-semibold uppercase tracking-wider text-muted-foreground'>
-                Currently Working On
+              <p className='text-l font-semibold uppercase tracking-wider text-muted-foreground'>
+                Working On
               </p>
               <div className='flex items-center justify-between'>
-                <span className='text-sm font-medium text-foreground  transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'>
+                <span className='text-sm font-medium text-foreground transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'>
                   Reflection Sessions
                 </span>
                 <ArrowRight className='h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1' />
@@ -91,7 +91,7 @@ const BentoHero = () => {
 
           {/* sociials - bottom right */}
           <BentoCell className='md:col-span-2'>
-            <p className='mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground'>
+            <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Connect
             </p>
             <div className='flex gap-4 text-2xl text-secondary-foreground'>

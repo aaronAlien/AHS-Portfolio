@@ -11,13 +11,13 @@ const AboutSection = () => (
     <Marquee text="About" className="mb-8" />
 
     <div className="w-full max-w-2xl rounded-3xl bg-card p-6 sm:p-8 ">
-      <p className="mb-4 text-sm font-semibold text-primary">Hey, I'm name</p>
+      <p className="mb-4 text-sm font-semibold text-primary">Hey, I'm Aaron</p>
       <p className="text-sm leading-relaxed text-secondary-foreground">
         After working internationally in the fashion industry, I shifted my focus to software development. Now, I build projects across web and data, usually starting from personal interests and turning them into technical challenges.
         <br />
         I'm intersted in roles where I can continue building, testing and improving systems in a practical environment.
       </p>
-      <p className="mt-6 text-center text-sm font-bold text-foreground">
+      <p className="mt-6 text-center text-sm font-bold text-foreground tracking-wider">
         thatshakespeare2@gmail.com
       </p>
     </div>

@@ -6,10 +6,10 @@ const projects = [
     {
     title: "DeleteDB",
     description: "A full stack demonstration of privacy by design with automatic data deletion, real-time monitoring and temporary sessions.",
-    tags: ["node", "typescript", "docker", "sql", "react", "vite", "tailwindcss"],
+    tags: ["docker", "postgresql", "node", "typescript", "react", "vite", "tailwindcss"],
     githubUrl: "https://github.com/aaronAlien/delete_db",
     imageUrl: "/assets/CardImages/sucess_logout.jpg",
-    liveUrl:"https://github.com/aaronAlien/delete_db",
+    liveUrl:"https://delete-db.vercel.app/",
   },
   {
     title: "Character Calc - Genshin Impact",

@@ -11,22 +11,6 @@ const projects = [
     imageUrl: "/assets/CardImages/sucess_logout.jpg",
     liveUrl:"https://delete-db.vercel.app/",
   },
-  {
-    title: "Character Calc - Genshin Impact",
-    description: "Data-driven dashboard that calculates character upgrade materials, with dynamic routing, normalized data models and unit tested logic.",
-    tags: ["react", "vite", "tailwindcss", "api", "local storage", "unit testing"],
-    githubUrl: "https://github.com/aaronAlien/Character-Calc",
-    imageUrl: "/assets/CardImages/character_calc.png",
-    liveUrl:"https://character-calc.vercel.app/",
-  },
-    {
-    title: "Spotify Data Analysis ",
-    description: "Python pipeline to fetch Spotify data via API, process it with Pandas, and visualize trends",
-    tags: ["python", "api", "jupyter", "numpy", "pandas", "matplotlib", "data analysis"],
-    githubUrl: "https://github.com/aaronAlien/Exploring-Spotify",
-    imageUrl: "/assets/CardImages/wordcloud_genres_2.png",
-    liveUrl:"https://github.com/aaronAlien/Exploring-Spotify",
-  },
 ];
 
 const ProjectsSection = () => (

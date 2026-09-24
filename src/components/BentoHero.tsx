@@ -44,9 +44,7 @@ const BentoHero = () => {
           {/* bio - top right - span 2 */}
           <BentoCell className='md:col-span-2'>
             <p className='text-sm leading-relaxed text-secondary-foreground'>
-              I’m a developer with a creative background and a lifelong interest
-              in technology. I enjoy learning by doing, building and testing
-              software systems to understand how they work.
+              I’m a developer who moved into tech after working internationally in fashion and I'm now studying Computer Science undergaduate. I enjoy learning by building web applications focused on full-stack development.
               <a
                 href='#about'
                 className='ml-1 text-muted-foreground transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'

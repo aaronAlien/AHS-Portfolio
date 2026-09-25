@@ -17,7 +17,7 @@ const AboutSection = () => (
         opportunities and connections.
       </p>
       <p className='mt-6 text-center text-sm font-bold text-foreground tracking-wider'>
-        thatshakespeare2@gmail.coms
+        thatshakespeare2@gmail.com
       </p>
     </div>
 

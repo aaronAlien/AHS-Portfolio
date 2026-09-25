@@ -32,7 +32,7 @@ const BentoHero = () => {
             />
             <div className='text-center'>
               <h1 className='sm:text-xl text-lg font-bold text-foreground'>
-                Aaron Shakespeare
+                Aaron Hannah Shakespeare
               </h1>
               <p className='text-sm text-muted-foreground'>
                 Full-Stack Developer
@@ -59,7 +59,7 @@ const BentoHero = () => {
             <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Stack
             </p>
-            <div className='flex flex-wrap gap-3 text-2xl text-secondary-foreground'>
+            <div className='flex flex-wrap justify-center snap-center gap-3 text-2xl text-secondary-foreground'>
               <FaJs title='JavaScript' />
               <SiTypescript title='TypeScript' />
               <FaPython title='Python' />
@@ -92,7 +92,7 @@ const BentoHero = () => {
             <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Connect
             </p>
-            <div className='flex gap-4 text-2xl text-secondary-foreground'>
+            <div className='flex justify-center gap-4 text-2xl text-secondary-foreground'>
               <a
                 href='thatshakespeare2@gmail.com'
                 target='_blank'

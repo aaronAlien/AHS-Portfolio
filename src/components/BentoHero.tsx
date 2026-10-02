@@ -34,17 +34,17 @@ const BentoHero = () => {
               <h1 className='sm:text-xl text-lg font-bold text-foreground'>
                 Aaron Hannah Shakespeare
               </h1>
-              <p className='text-sm text-muted-foreground'>
-                Full-Stack Developer
+              <p className='text-sm text-muted-foreground mt-2'>
+                Full-Stack Developer <br/> Computer Science Student
               </p>
-              <p className='text-l text-muted-foreground'>📍 London, UK</p>
+              <p className='text-xs text-muted-foreground'>📍 London, UK</p>
             </div>
           </BentoCell>
 
           {/* bio - top right - span 2 */}
           <BentoCell className='md:col-span-2'>
             <p className='text-sm leading-relaxed text-secondary-foreground'>
-              I’m a developer who moved into tech after working internationally in fashion and I'm now studying Computer Science undergaduate. I enjoy learning by building web applications focused on full-stack development.
+              I’m a developer who moved into tech after working internationally in fashion and I'm now studying Computer Science undergraduate. I enjoy learning by building web applications focused on full-stack development.
               <a
                 href='#about'
                 className='ml-1 text-muted-foreground transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
@@ -94,7 +94,7 @@ const BentoHero = () => {
             </p>
             <div className='flex justify-center gap-4 text-2xl text-secondary-foreground'>
               <a
-                href='thatshakespeare2@gmail.com'
+                href='mailto:thatshakespeare2@gmail.com'
                 target='_blank'
                 className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
                 aria-label='Email: thatshakespeare2@gmail.com'

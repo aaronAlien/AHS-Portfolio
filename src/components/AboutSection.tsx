@@ -28,7 +28,6 @@ const AboutSection = () => (
     <div className='mt-8 flex gap-4 text-xl text-muted-foreground'>
       <a
         href='mailto:thatshakespeare2@gmail.com'
-        target='_blank'
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='Email'
       >
@@ -37,7 +36,7 @@ const AboutSection = () => (
       <a
         href='https://www.linkedin.com/in/aaron-shakespeare/'
         target='_blank'
-        className='ttransition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
+        className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='LinkedIn'
       >
         <FaLinkedin />

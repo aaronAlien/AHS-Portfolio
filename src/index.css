@@ -78,7 +78,7 @@
   }
 
   body {
-    @apply text-foreground;
+    @apply bg-background text-foreground;
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-position: center;
@@ -98,13 +98,6 @@
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 300s linear infinite;
 }
 
-
-/* slightly faster below 1024px */
-@media (max-width: 1023px) {
-  .animate-marquee {
-    animation: marquee 6s linear infinite;
-  }
-}

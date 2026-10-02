@@ -95,7 +95,6 @@ const BentoHero = () => {
             <div className='flex justify-center gap-4 text-2xl text-secondary-foreground'>
               <a
                 href='mailto:thatshakespeare2@gmail.com'
-                target='_blank'
                 className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
                 aria-label='Email: thatshakespeare2@gmail.com'
               >

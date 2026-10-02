@@ -35,6 +35,9 @@ export default {
         accent: "hsl(var(--accent))",
         "accent-foreground": "hsl(var(--accent-foreground))",
 
+        "bento-cell": "hsl(var(--bento-cell))",
+"bento-cell-hover": "hsl(var(--bento-cell-hover))",
+
         destructive: "hsl(var(--destructive))",
         "destructive-foreground": "hsl(var(--destructive-foreground))",
       },
@@ -59,21 +62,6 @@ export default {
 
       fontSize: {
         xxs: ["0.625rem", "0.875rem"],
-      },
-
-      /* =======================
-         ANIMATIONS
-         ======================= */
-      animation: {
-        marquee: "marquee 1000s linear infinite",
-        "bounce-slow": "bounce 1s infinite",
-      },
-
-      keyframes: {
-        marquee: {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-100%)" },
-        },
       },
 
       /* =======================

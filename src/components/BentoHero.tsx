@@ -17,21 +17,21 @@ const BentoHero = () => {
   return (
     <section
       id='hero'
-      className='flex min-h-screen flex-col items-center shadow-card justify-center px-4'
+      className='flex min-h-screen flex-col items-center justify-center px-4 py-12'
     >
       {/* grey card */}
       <div className='w-full max-w-3xl rounded-3xl bg-card p-4 border border-zinc-50/10 shadow-md shadow-[hsl(var(--bento-cell-hover))]'>
         {/* bento grid */}
         <div className='grid grid-cols-1 gap-2 md:grid-cols-3 md:grid-rows-3'>
           {/* profile - left span 2 */}
-          <BentoCell className='flex flex-col items-center justify-center gap-4 md:col-span-1 md:row-span-2'>
+          <BentoCell className='flex flex-col items-center justify-center gap-4 md:col-span-1 md:row-span-3'>
             <img
               src='/assets/AHShakespearePFP2_sq.jpg'
               alt='image of AHS'
               className='h-28 w-28 rounded-full border-2 border-border object-cover'
             />
             <div className='text-center'>
-              <h1 className='sm:text-xl text-lg font-bold text-foreground'>
+              <h1 className='text-xl sm:text-2xl font-bold text-foreground'>
                 Aaron Hannah Shakespeare
               </h1>
               <p className='text-sm text-muted-foreground mt-2'>
@@ -59,7 +59,7 @@ const BentoHero = () => {
             <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Stack
             </p>
-            <div className='flex flex-wrap justify-center snap-center gap-3 text-2xl text-secondary-foreground'>
+            <div className='flex flex-wrap justify-center gap-3 text-2xl text-secondary-foreground'>
               <FaJs title='JavaScript' />
               <SiTypescript title='TypeScript' />
               <FaPython title='Python' />
@@ -73,7 +73,7 @@ const BentoHero = () => {
           </BentoCell>
 
           {/* working on - bottom left */}
-          <BentoCell className='group md:col-span-1'>
+          <BentoCell className='hidden group md:col-span-1'>
             <a href='https://github.com/aaronAlien/reflection-sessions' target="_blank" className='flex h-full flex-col justify-between gap-3'>
               <p className='text-l font-semibold uppercase tracking-wider text-muted-foreground'>
                 Working On

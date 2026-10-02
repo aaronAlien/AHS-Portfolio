@@ -24,15 +24,15 @@ const ProjectCard = ({ title, description, tags, githubUrl, imageUrl, liveUrl }:
       </div>
     </a>
     <div>
-      <h3 className="text-sm font-bold text-foreground">{title}</h3>
-      <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{description}</p>
+      <h3 className="text-base font-bold text-foreground">{title}</h3>
+      <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{description}</p>
     </div>
-    <div className="mt-auto flex items-center justify-between">
+    <div className="mt-auto flex items-end gap-3 justify-between">
       <div className="flex flex-wrap gap-1.5">
         {tags.map((tag) => (
           <span
             key={tag}
-            className="rounded-full border border-border px-2 py-0.5 text-[10px] text-muted-foreground"
+            className="rounded-full border border-border px-2 py-0.5 text-xs text-muted-foreground"
           >
             {tag}
           </span>

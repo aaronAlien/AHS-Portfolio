@@ -39,11 +39,11 @@ const projects = [
 const ProjectsSection = () => (
   <section
     id='projects'
-    className='flex min-h-screen flex-col items-center justify-center px-4 '
+    className='flex min-h-screen flex-col items-center justify-center px-4 py-16'
   >
     <Marquee text='My Projects' className='mb-8' />
 
-    <div className='w-full max-w-5xl rounded-3xl bg-card p-4 shadow-2xl'>
+    <div className='w-full max-w-5xl rounded-3xl bg-card p-4 border border-zinc-50/10 shadow-2xl'>
       <div className='grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3'>
         {projects.map((project, i) => (
           <ProjectCard key={i} {...project} />

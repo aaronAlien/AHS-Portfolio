@@ -6,11 +6,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const AboutSection = () => (
   <section
     id='about'
-    className='flex min-h-screen flex-col items-center justify-center px-4'
+    className='flex min-h-screen flex-col items-center justify-center px-4 py-16'
   >
     <Marquee text='About' className='mb-8' />
 
-    <div className='w-full max-w-2xl rounded-3xl bg-card p-6 sm:p-8 '>
+    <div className='w-full max-w-2xl rounded-3xl bg-card border border-zinc-50/10 p-6 sm:p-8 '>
       <p className='mb-4 text-sm font-semibold text-primary'>Hey, I'm Aaron</p>
       <p className='text-sm leading-relaxed text-secondary-foreground'>
         While focusing on my degree, I'm always happy to talk about potential

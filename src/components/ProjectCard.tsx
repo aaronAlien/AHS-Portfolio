@@ -12,10 +12,10 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, description, tags, githubUrl, imageUrl, liveUrl }: ProjectCardProps) => (
   <BentoCell className="flex flex-col gap-3">
-    <a href={liveUrl} target="_blank">
+    <a href={liveUrl} aria-label="{`Open ${title} live site`}" target="_blank" rel="noopener noreferrer">
       <div className="aspect-video w-full overflow-hidden rounded-lg border border-border bg-secondary">
         {imageUrl ? (
-          <img src={imageUrl} alt={title} className="h-full w-full object-cover" />
+          <img src={imageUrl} alt={`Screenshot of ${title}`} loading="lazy" className="h-full w-full object-cover" />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-sm text-muted-foreground">
             screenshot image
@@ -44,7 +44,7 @@ const ProjectCard = ({ title, description, tags, githubUrl, imageUrl, liveUrl }:
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted-foreground transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]"
-          aria-label="GitHub repository"
+          aria-label={`${title} on GitHub`}
         >
           <FaGithub className="h-5 w-5" />
         </a>

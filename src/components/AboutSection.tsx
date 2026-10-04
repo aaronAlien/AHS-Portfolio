@@ -25,7 +25,7 @@ const AboutSection = () => (
     <ScrollArrow targetId='hero' direction='up' className='mt-8' />
 
     {/* Footer socials */}
-    <div className='mt-8 flex gap-4 text-xl text-muted-foreground'>
+    <div className='mt-8 flex gap-2 text-xl text-muted-foreground'>
       <a
         href='mailto:thatshakespeare2@gmail.com'
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
@@ -35,7 +35,7 @@ const AboutSection = () => (
       </a>
       <a
         href='https://www.linkedin.com/in/aaron-shakespeare/'
-        target='_blank'
+        target='_blank' rel="noopener noreferrer"
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='LinkedIn'
       >
@@ -43,7 +43,7 @@ const AboutSection = () => (
       </a>
       <a
         href='https://github.com/aaronAlien/'
-        target='_blank'
+        target='_blank' rel="noopener noreferrer"
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='GitHub'
       >
@@ -51,7 +51,7 @@ const AboutSection = () => (
       </a>
     </div>
     <p className='mt-8 mb-8 text-xs text-muted-foreground hover:text-foreground transition-colors'>
-      <a href='https://adamtitchener.com/' target='_blank'>
+      <a href='https://adamtitchener.com/' target='_blank' rel="noopener noreferrer">
         image: Adam Titchener
       </a>
     </p>

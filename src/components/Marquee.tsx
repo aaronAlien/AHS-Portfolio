@@ -10,7 +10,8 @@ const Marquee = ({ text, className }: MarqueeProps) => {
 
   return (
     <div className={cn("overflow-hidden w-full", className)}>
-      <div className="flex w-max animate-marquee whitespace-nowrap">
+      <h2 className="sr-only">{text}</h2>
+      <div className="flex w-max animate-marquee whitespace-nowrap" aria-hidden="true">
         {[0, 1].map((group) => (
           <div key={group} className="flex shrink-0">
             {items.map((item, i) => (

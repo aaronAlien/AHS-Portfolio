@@ -27,7 +27,7 @@ const BentoHero = () => {
           <BentoCell className='flex flex-col items-center justify-center gap-4 md:col-span-1 md:row-span-3'>
             <img
               src='/assets/AHShakespearePFP2_sq.jpg'
-              alt='image of AHS'
+              alt='image of Aaron Hannah Shakespeare'
               className='h-28 w-28 rounded-full border-2 border-border object-cover'
             />
             <div className='text-center'>
@@ -60,21 +60,21 @@ const BentoHero = () => {
               Stack
             </p>
             <div className='flex flex-wrap justify-center gap-3 text-2xl text-secondary-foreground'>
-              <FaJs title='JavaScript' />
-              <SiTypescript title='TypeScript' />
-              <FaPython title='Python' />
-              <FaNodeJs title='Node.js' />
-              <FaReact title='React' />
-              <SiVite title='Vite' />
-              <SiTailwindcss title='Tailwind CSS' />
-              <FaHtml5 title='HTML' />
-              <FaCss3Alt title='CSS' />
+              <FaJs role="img" aria-label="JavaScript" title='JavaScript' />
+              <SiTypescript role="img" aria-label="TypeScript" title='TypeScript' />
+              <FaPython role="img" aria-label="Python" title='Python' />
+              <FaNodeJs role="img" aria-label="NodeJS" title='Node.js' />
+              <FaReact role="img" aria-label="React" title='React' />
+              <SiVite role="img" aria-label="Vite" title='Vite' />
+              <SiTailwindcss role="img" aria-label="Tailwind" title='Tailwind CSS' />
+              <FaHtml5 role="img" aria-label="HTML" title='HTML' />
+              <FaCss3Alt role="img" aria-label="CSS" title='CSS' />
             </div>
           </BentoCell>
 
           {/* working on - bottom left */}
           <BentoCell className='hidden group md:col-span-1'>
-            <a href='https://github.com/aaronAlien/reflection-sessions' target="_blank" className='flex h-full flex-col justify-between gap-3'>
+            <a href='https://github.com/aaronAlien/reflection-sessions' target="_blank" rel="noopener noreferrer" className='flex h-full flex-col justify-between gap-3'>
               <p className='text-l font-semibold uppercase tracking-wider text-muted-foreground'>
                 Working On
               </p>
@@ -92,7 +92,7 @@ const BentoHero = () => {
             <p className='mb-3 text-l font-semibold uppercase tracking-wider text-muted-foreground'>
               Connect
             </p>
-            <div className='flex justify-center gap-4 text-2xl text-secondary-foreground'>
+            <div className='flex justify-center gap-2 text-2xl text-secondary-foreground'>
               <a
                 href='mailto:thatshakespeare2@gmail.com'
                 className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
@@ -103,6 +103,7 @@ const BentoHero = () => {
               <a
                 href='https://www.linkedin.com/in/aaron-shakespeare/'
                 target='_blank'
+                rel="noopener noreferrer"
                 className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
                 aria-label='LinkedIn'
               >
@@ -111,6 +112,7 @@ const BentoHero = () => {
               <a
                 href='https://github.com/aaronAlien/'
                 target='_blank'
+                rel="noopener noreferrer"
                 className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
                 aria-label='GitHub'
               >

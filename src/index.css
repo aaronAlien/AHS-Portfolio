@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +9,7 @@
 @layer base {
   :root {
     --background: 0 0% 7%;
-    --background-image: url('/assets/animated_background.svg');
+    --background-image: url("/assets/animated_background.svg");
     --foreground: 0 0% 93%;
 
     --card: 0 0% 14%;
@@ -36,7 +35,7 @@
 
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 0 0% 60%;
+    --ring: 254 53% 66%;
 
     --radius: 0.75rem;
 
@@ -64,7 +63,6 @@
     --violet-glow-soft: 0.12;
     --violet-glow-micro: 0.06;
   }
-
 }
 
 @layer base {
@@ -74,7 +72,12 @@
 
   html {
     scroll-behavior: smooth;
-    font-family: Zalando Sans Expanded, Verdana, Geneva, Tahoma, sans-serif
+    font-family:
+      Zalando Sans Expanded,
+      Verdana,
+      Geneva,
+      Tahoma,
+      sans-serif;
   }
 
   body {
@@ -86,6 +89,22 @@
     background-attachment: fixed;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  a:focus-visible,
+  button:focus-visible {
+    @apply rounded-md outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
 }
 
 @keyframes marquee {
@@ -100,4 +119,3 @@
 .animate-marquee {
   animation: marquee 300s linear infinite;
 }
-

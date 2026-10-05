@@ -34,7 +34,18 @@ const projects = [
     imageUrl: "/assets/CardImages/character_calc.png",
     liveUrl: "https://character-calc.vercel.app/",
   },
+
 ];
+
+// tailwind classes grow section when new added
+const layouts = {
+1: { width: "max-w-md", cols: "" },
+2: { width: "max-w-4xl", cols: "sm:grid-cols-2" },
+3: { width: "max-w-6xl", cols: "sm:grid-cols-2 lg:grid-cols-3" },  
+};
+
+const columns = projects.length === 4 ? 2 : Math.min(projects.length, 3);
+const layout = layouts[columns as 1 | 2 | 3];
 
 const ProjectsSection = () => (
   <section
@@ -43,8 +54,8 @@ const ProjectsSection = () => (
   >
     <Marquee text='My Projects' className='mb-8' />
 
-    <div className='w-full max-w-5xl rounded-3xl bg-card p-4 border border-zinc-50/10 shadow-2xl'>
-      <div className='grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3'>
+    <div className={`w-full ${layout.width} rounded-3xl bg-card p-4 border border-zinc-50/10 shadow-2xl`}>
+      <div className={`grid grid-cols-1 gap-3 ${layout.cols}`}>
         {projects.map((project, i) => (
           <ProjectCard key={i} {...project} />
         ))}

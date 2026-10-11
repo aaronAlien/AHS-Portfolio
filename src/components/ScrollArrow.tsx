@@ -18,6 +18,7 @@ const ScrollArrow = ({ targetId, direction = "down", className }: ScrollArrowPro
   return (
     <button
       onClick={handleClick}
+      type="button"
       className={cn("animate-bounce text-muted-foreground transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]", className)}
       aria-label={direction === "up" ? "Scroll to top" : "Scroll to next section"}
     >

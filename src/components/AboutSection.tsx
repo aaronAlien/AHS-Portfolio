@@ -6,11 +6,11 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 const AboutSection = () => (
   <section
     id='about'
-    className='flex min-h-screen flex-col items-center justify-center px-4'
+    className='flex min-h-screen flex-col items-center justify-center px-4 py-16'
   >
     <Marquee text='About' className='mb-8' />
 
-    <div className='w-full max-w-2xl rounded-3xl bg-card p-6 sm:p-8 '>
+    <div className='w-full max-w-2xl rounded-3xl bg-secondary border border-zinc-50/10 p-6 sm:p-8 '>
       <p className='mb-4 text-sm font-semibold text-primary'>Hey, I'm Aaron</p>
       <p className='text-sm leading-relaxed text-secondary-foreground'>
         While focusing on my degree, I'm always happy to talk about potential
@@ -25,10 +25,9 @@ const AboutSection = () => (
     <ScrollArrow targetId='hero' direction='up' className='mt-8' />
 
     {/* Footer socials */}
-    <div className='mt-8 flex gap-4 text-xl text-muted-foreground'>
+    <div className='mt-8 flex gap-2 text-xl text-muted-foreground'>
       <a
         href='mailto:thatshakespeare2@gmail.com'
-        target='_blank'
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='Email'
       >
@@ -36,15 +35,15 @@ const AboutSection = () => (
       </a>
       <a
         href='https://www.linkedin.com/in/aaron-shakespeare/'
-        target='_blank'
-        className='ttransition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
+        target='_blank' rel="noopener noreferrer"
+        className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='LinkedIn'
       >
         <FaLinkedin />
       </a>
       <a
         href='https://github.com/aaronAlien/'
-        target='_blank'
+        target='_blank' rel="noopener noreferrer"
         className='transition-colors duration-300 ease-out hover:text-[hsl(var(--violet-border))]'
         aria-label='GitHub'
       >
@@ -52,7 +51,7 @@ const AboutSection = () => (
       </a>
     </div>
     <p className='mt-8 mb-8 text-xs text-muted-foreground hover:text-foreground transition-colors'>
-      <a href='https://adamtitchener.com/' target='_blank'>
+      <a href='https://adamtitchener.com/' target='_blank' rel="noopener noreferrer">
         image: Adam Titchener
       </a>
     </p>

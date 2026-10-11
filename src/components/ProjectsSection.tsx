@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Character Calc",
     description:
-      "A gaming resource planner. ",
+      "A gaming resource planner.",
     tags: [
       "javascript",
       "react",
@@ -33,19 +33,6 @@ const projects = [
     githubUrl: "https://github.com/aaronAlien/character-calc",
     imageUrl: "/assets/CardImages/character_calc.png",
     liveUrl: "https://character-calc.vercel.app/",
-  },
-    {
-    title: "Live Bus",
-    description:
-      "Live London bus arrivals from TfL open data. Enter the 5-digit code from a bus stop sign to see what's arriving and when.",
-    tags: [
-      "javascript",
-      "html",
-      "css",
-    ],
-    githubUrl: "https://github.com/aaronAlien/Live-Bus-TFL",
-    imageUrl: "/assets/CardImages/live_bus.png",
-    liveUrl: "https://live-bus-tfl.vercel.app/",
   },
 ];
 

@@ -10,7 +10,7 @@ const AboutSection = () => (
   >
     <Marquee text='About' className='mb-8' />
 
-    <div className='w-full max-w-2xl rounded-3xl bg-secondary border border-zinc-50/10 p-6 sm:p-8 '>
+    <div className='w-full max-w-2xl rounded-3xl bg-bento-cell border border-zinc-50/10 p-6 sm:p-8 '>
       <p className='mb-4 text-sm font-semibold text-primary'>Hey, I'm Aaron</p>
       <p className='text-sm leading-relaxed text-secondary-foreground'>
         While focusing on my degree, I'm always happy to talk about potential

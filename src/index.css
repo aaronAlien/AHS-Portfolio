@@ -8,8 +8,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 7%;
-    --background-image: url("/assets/animated_background.svg");
+    --background: 0 0% %;
+    --background-image: url("/assets/animated_shape_background.svg");
     --foreground: 0 0% 93%;
 
     --card: 0 0% 14% / 0;

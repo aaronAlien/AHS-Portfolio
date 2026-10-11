@@ -22,17 +22,20 @@ const projects = [
   },
   {
     title: "Character Calc",
-    description:
-      "A gaming resource planner.",
-    tags: [
-      "javascript",
-      "react",
-      "vite",
-      "tailwindcss",
-    ],
+    description: "A resource planner for Genshin Impact. Calculate character materials needed for target levels, save a list of characters to build. Reimplemented in React under MIT License.",
+    tags: ["javascript", "react", "vite", "tailwindcss"],
     githubUrl: "https://github.com/aaronAlien/character-calc",
     imageUrl: "/assets/CardImages/character_calc.png",
     liveUrl: "https://character-calc.vercel.app/",
+  },
+  {
+    title: "Live Bus",
+    description:
+      "Live London bus arrivals from TfL open data. Enter the 5-digit code from a bus stop sign to see what's arriving and when.",
+    tags: ["javascript", "html", "css"],
+    githubUrl: "https://github.com/aaronAlien/Live-Bus-TFL",
+    imageUrl: "/assets/CardImages/live_bus.png",
+    liveUrl: "https://live-bus-tfl.vercel.app/",
   },
 ];
 
